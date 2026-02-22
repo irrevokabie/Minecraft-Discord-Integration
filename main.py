@@ -2,8 +2,8 @@ import requests
 import time
 import re
 
-webhook_url = "" # !
-log_path = "logs/latest.log"
+webhook_url = ""
+log_path = ""
 chat_regex = re.compile(r"<(.+?)> (.+)")
 lines_read = set()
 
